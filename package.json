@@ -11,6 +11,7 @@
   "workspaces": [
     "apps/API",
     "apps/Discord-Bot",
-    "libs/wrapper"
+    "libs/wrapper",
+    "apps/Dashboard"
   ]
 }

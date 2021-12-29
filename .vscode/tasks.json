@@ -25,6 +25,14 @@
       "problemMatcher": [],
       "label": "Build libs/wrapper",
       "detail": "tsc"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "path": "apps/Dashboard/",
+      "problemMatcher": [],
+      "label": "Serve Dashboard",
+      "detail": "vite"
     }
   ]
 }
