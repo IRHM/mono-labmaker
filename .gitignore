@@ -1,3 +1,9 @@
+dist
+
+# Ignore all .env* files, except env.example files
+.env*
+!.env.example
+
 # Logs
 logs
 *.log

@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "start:dev",
+      "path": "apps/API/",
+      "problemMatcher": [],
+      "label": "Serve API",
+      "detail": "nest start --watch"
+    },
+    {
+      "type": "npm",
+      "script": "dev",
+      "path": "apps/Discord-Bot/",
+      "problemMatcher": [],
+      "label": "Serve Discord-Bot",
+      "detail": "ts-node-dev --respawn ./src/Index.ts"
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "path": "libs/wrapper/",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "Build libs/wrapper",
+      "detail": "tsc"
+    }
+  ]
+}
